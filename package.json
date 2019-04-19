@@ -1,0 +1,32 @@
+{
+  "name": "LedBlink",
+  "description": "easy led blink support;",
+  "description_zh": "简单易用led闪烁控制软件包",  
+  "keywords": [
+    "LedBlink"
+  ],
+  "category": "peripherals",
+  "author": {
+    "name": "zpw",
+    "email": "aeo1234@qq.com"
+  },
+  "license": "GPL-2.0",
+  "repository": "https://gitee.com/aeo123/ledblink.git",
+  "icon": "unknown",
+  "homepage": "unknown",
+  "doc": "unknown",
+  "site": [
+    {
+      "version": "v1.0.0",
+      "URL": "https://LedBlink-1.0.0.zip",
+      "filename": "LedBlink-1.0.0.zip",
+      "VER_SHA": "fill in the git version SHA value"
+    },
+    {
+      "version": "latest",
+      "URL": "https://xxxxx.git",
+      "filename": "Null for git package",
+      "VER_SHA": "fill in latest version branch name, such as master"
+    }
+  ]
+}
