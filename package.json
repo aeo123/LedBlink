@@ -13,20 +13,20 @@
   "license": "GPL-2.0",
   "repository": "https://gitee.com/aeo123/ledblink.git",
   "icon": "unknown",
-  "homepage": "unknown",
-  "doc": "unknown",
+  "homepage": "https://gitee.com/aeo123/ledblink/tree/master",
+  "doc": "https://gitee.com/aeo123/ledblink/blob/master/readme.md",
   "site": [
     {
       "version": "v1.0.0",
-      "URL": "https://LedBlink-1.0.0.zip",
+      "URL": "https://gitee.com/aeo123/ledblink.git",
       "filename": "LedBlink-1.0.0.zip",
-      "VER_SHA": "fill in the git version SHA value"
+      "VER_SHA": "ea6d3e235b95e9a59d8dd6c28e80b6da798cf895"
     },
     {
       "version": "latest",
-      "URL": "https://xxxxx.git",
+      "URL": "https://gitee.com/aeo123/ledblink.git",
       "filename": "Null for git package",
-      "VER_SHA": "fill in latest version branch name, such as master"
+      "VER_SHA": "master"
     }
   ]
 }
