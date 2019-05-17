@@ -6,6 +6,7 @@ CPPPATH = [cwd, str(Dir('#'))]
 src     = Glob('*.c')
 
 
-group = DefineGroup('Applications', src, depend = [''], CPPPATH = CPPPATH)
+group = DefineGroup('LedBlink', src, depend = [''], CPPPATH = CPPPATH)
 
 Return('group')
+
