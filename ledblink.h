@@ -21,17 +21,17 @@ typedef enum
     TOG,   //翻转一次
 } led_status;
 
+#pragma pack(1)
 typedef struct
 {
-#pragma pack(1)
     rt_base_t pin;     //led引脚
     led_status state;  //模式
     uint8_t ison;      //当前状态
     uint32_t on_time;  //每周期亮的时间，单位tick
     uint32_t off_time; //每周期灭的时间，单位tick
     uint32_t tick;     //tick计数值
-#pragma pack(1)
 } led_blink_struct;
+#pragma pack()
 
 int led_add_device(rt_base_t led_pin);
 void led_set_level(uint8_t num, uint8_t level);
